@@ -1,0 +1,36 @@
+num1 = 8;
+a = 13;
+Rabbit = 2;
+A = 4;
+sh4fg5 = LList;
+sh4fg5.push(12);
+sh4fg5.push(85);
+sh4fg5.push(4);
+sh4fg5.push(2);
+sh4fg5.push(57);
+sh4fg5.push(9);
+sh4fg5.push(44);
+sh4fg5.push(1);
+sh4fg5.push(30);
+sh4fg5.push(57);
+while (A > num1)
+{
+    if (Rabbit > a)
+    {
+        Rabbit = Rabbit + 5;
+    }
+    else
+    {
+        if (A < num1)
+        {
+            A = A * 3;
+        }
+        else
+        {
+            num1 = num1 - 4;
+        }
+    }
+    sh4fg5.rm(2);
+}
+sh4fg5.rm(9);
+a = a + 5;
